@@ -97,6 +97,9 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 
+    //HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_10);
+
+
     HAL_GPIO_WritePin(GPIOC, GPIO_PIN_10, 1);
     HAL_Delay(200);
     HAL_GPIO_WritePin(GPIOC, GPIO_PIN_10, 0);
